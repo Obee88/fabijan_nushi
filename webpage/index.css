@@ -33,6 +33,7 @@ img.box {
   z-index: 2;
 }
 a.in {
+  position: absolute;
   right: 36px;
   top: 36px;
 }
