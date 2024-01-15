@@ -1,0 +1,64 @@
+
+.logo {
+  background: url('./images/nushi-logo.png'), lightgray 50% / cover no-repeat;
+}
+.wasaby-box {
+  background: url('./images/wasaby-box.png'), lightgray 50% / cover no-repeat;
+}
+.cherry-box {
+  background: url('./images/cherry-box.png'), lightgray 50% / cover no-repeat;
+}
+.main-box {
+  background: url('./images/main-box.png'), lightgray 50% / cover no-repeat;
+}
+.main-boxes {
+  background: url('./images/main-boxes.png'), lightgray 50% / cover no-repeat;
+}
+.shichimi-box {
+  background: url('./images/shichimi-box.png'), lightgray 50% / cover no-repeat;
+}
+.nushi-box-1 {
+  background: url('./images/nushi-box-1.png'), lightgray 50% / cover no-repeat;
+}
+.nushi-box-2 {
+  background: url('./images/nushi-box-2.png'), lightgray 50% / cover no-repeat;
+}
+.nushi-boxes {
+  background: url('./images/nushi-boxes.png'), lightgray 50% / cover no-repeat;
+}
+.nushi-promoting {
+  background: url('./images/nushi-promoting.png'), lightgray 50% / cover no-repeat;
+}
+.gift-boxes-bg {
+  background: rgba(211,211,211, .35)
+  
+}
+.gift-boxes {
+  margin: 3% 9%;
+  background: url('./images/gift-boxes.png');
+  background-repeat: no-repeat !important;
+  background-position:  initial !important;
+  
+}
+.trio-box {
+  background: url('./images/trio-box.png') , white 50% / cover no-repeat;
+  margin: 18% 0;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+.insta-boxes {
+  background: url('./images/insta-boxes.png'), lightgray 50% / cover no-repeat;
+}
+p {
+  margin-block-start: 0;
+  margin-block-end: 24px;
+}
+.sumo-animation {
+  width: 100vw;
+  height: 100vh;
+  background: url('./videos/sumo-animation.mp4') center/cover no-repeat fixed;
+  /* overflow: hidden; */
+  background-position: center;
+  aspect-ratio: auto 1316/740;
+  background-size: cover;
+}

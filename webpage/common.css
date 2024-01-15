@@ -1,0 +1,117 @@
+.main {
+  max-width: 1316px;
+  min-width: 556px;
+  margin: 48px auto;
+}
+.title {
+  color: #000;
+  font-family: Visby;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text18 {
+  color: #000;
+  font-family: Visby;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.text20 {
+  color: #000;
+  text-align: center;
+  font-family: Visby;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text40 {
+  color: #000;
+  font-family: Visby;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 20%;
+}
+.shaded-image {
+  background-position: center !important;
+  aspect-ratio: auto 1316/740;
+  background-size: cover !important;
+}
+.ar1 {
+  aspect-ratio: auto 1/1;
+}
+
+.badge {
+  padding: 12px 16px;
+  border-radius: 32px;
+  border: 1px solid #0C0B0B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  cursor: pointer;
+}
+
+.mg-b-60 {
+  margin-bottom: 60px;
+}
+.mg-b-42 {
+  margin-bottom: 42px;
+}
+.mg-b-18 {
+  margin-bottom: 18px;
+}
+.mg-r-8 {
+  margin-right: 8px;
+}
+
+.row {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+.f1 {
+  flex: 1;
+}
+.gap-60 {
+  gap: 60px;
+}
+
+video {
+  width: 100%;
+}
+
+.center-text {
+  max-width: 55%;
+  margin: 0% auto;
+}
+.center-text > .label {
+  color: #000;
+  font-family: Visby;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.center-text > .text {
+  color: #000;
+  font-family: Visby;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}

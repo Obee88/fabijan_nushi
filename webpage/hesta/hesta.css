@@ -1,0 +1,35 @@
+
+.hesta-1 {
+  background: url('./images/hesta-1.png');
+}
+.hesta-2 {
+  background: url('./images/hesta-2.png');
+}
+.hesta-3-1 {
+  background: url('./images/hesta-3-1.png');
+}
+.hesta-3-2 {
+  background: url('./images/hesta-3-2.png');
+}
+.hesta-4 {
+  background: url('./images/hesta-4.png');
+}
+.hesta-5 {
+  background: url('./images/hesta-5.png');
+}
+.hesta-7-1 {
+  background: url('./images/hesta-7-1.png');
+}
+.hesta-7-2 {
+  background: url('./images/hesta-7-2.png');
+}
+.hesta-9-1 {
+  background: url('./images/hesta-9-1.png');
+}
+.hesta-10 {
+  background: url('./images/hesta-10.png');
+}
+
+.mg-20p {
+  margin: 0 20%;
+}
