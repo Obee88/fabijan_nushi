@@ -34,6 +34,13 @@ img.box {
 }
 a.in {
   position: absolute;
-  right: 36px;
-  top: 36px;
+  right: 56px;
+  top: 56px;
+  z-index: 2;
+  color: #FBFBFA;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
