@@ -54,7 +54,11 @@ body {
   width: 1316px;
   height: 740px;
   background-color: #FF0000;
+  display: none !important;
 }
 .hesta>.bg {
   background-color: #FF0000;
+}
+.n95>.label {
+  display: block !important;
 }
