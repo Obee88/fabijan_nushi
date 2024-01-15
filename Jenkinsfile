@@ -32,7 +32,7 @@ pipeline {
         stage('Run docker container') {
             steps {
                 script {
-                    sh "docker run --name fabijan_nushi --network web-network -d -p 2001:80 $imageName"
+                    sh "docker run --name fabijan_nushi --network web-network -d $imageName"
                 }
             }
         }
