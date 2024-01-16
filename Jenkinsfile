@@ -6,7 +6,7 @@ pipeline {
         stage('Define image name') {
             steps {
                 script {
-                    imageName = "fabijan_nushi:${BUILD_NUMBER}"
+                    imageName = "fabijan-nushi:${BUILD_NUMBER}"
                 }
                 echo "imageName: ${imageName}"
             }
@@ -21,18 +21,18 @@ pipeline {
         stage('Clean old resources') {
             steps {
                 script {
-                    sh "docker ps -a --format '{{.Names}}' | grep -E \"fabijan_nushi\" | xargs -r docker rm -f"
+                    sh "docker ps -a --format '{{.Names}}' | grep -E \"fabijan-nushi\" | xargs -r docker rm -f"
                 }
                 script {
                     def minTag = BUILD_NUMBER.toInteger() - 2
-                    sh "docker images | grep 'fabijan_nushi' | awk '\$2 < $minTag {print \$1\":\"\$2}' | xargs -r docker rmi"
+                    sh "docker images | grep 'fabijan-nushi' | awk '\$2 < $minTag {print \$1\":\"\$2}' | xargs -r docker rmi"
                 }
             }
         }
         stage('Run docker container') {
             steps {
                 script {
-                    sh "docker run --name fabijan_nushi --network web-network -d $imageName"
+                    sh "docker run --name fabijan-nushi --network web-network -d $imageName"
                 }
             }
         }
